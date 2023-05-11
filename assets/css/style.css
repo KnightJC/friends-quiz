@@ -1,140 +1,72 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat&family=Gabriela&family=Lato:wght@300&family=Nunito+Sans:wght@600&display=swap');
 
-/*Global Style*/
 body {
+    background: white;
+    font-size: 16px;
     font-family: "Gabriela", sans-serif;
-    text-align: center;
+    line-height: 1.5;
+    margin: 0;
+    padding-top: 2.5em;
+    background-color: antiquewhite;
+
 }
 
-/* Header */
-.heading {
+/*.heading {
     text-align: center;
     font-size: 3rem;
 }
 
-.custom-box {
-    max-width: 700px;
-    margin: 40px auto;
-    padding: 30px;
-    border-radius: 10px;
+.container {
+    display: flex;
+    justify-content: center;
 
 }
 
-.custom-box::before,
-.custom-box::after {
-    content: '';
-    clear: both;
-}
-.custom-box.hide {
-    display: none;
-    display:table;
-}
-
-.home-box {
-    font-size: 18px;
-    font-weight: 500;
-    margin-bottom: 15px;
-    line-height: 25px;
-
-}
-
-.home-box h3 {
-    font-size: 20px;
-    font-weight: 500;
-    margin-bottom: 15px;
-    line-height: 25px;
-
-}
-
-.home-box p {
-    font-size: 16px;
-    margin-bottom: 10px;
-    line-height: 20px;
-    font-weight: 400;
-}
-
-.home-box p span {
-    font-weight: 500;
-
-}
-
-.home-box .btn {
-    margin-top: 20px;
-}
-
-
-.logo {
-    height: 150px;
-    padding-right: 1rem;
-}
-
-
-
-.btn {
-    font-size: 2.5rem;
+.centered {
+    margin-top: 70px;
     text-align: center;
-    margin-bottom: 5%;
+    width: 800px;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 16px 2px rgba(0, 0, 0, 0.62);
+}
+
+h1 {
     color: black;
-    border-radius: 15px;
-    background:silver;
-    padding: 15px 45px;
-    width: 200px;
-    text-decoration: none;
-    vertical-align: 150%;
+    font-weight: 300;
+    font-size: 2.6em;
+    line-height: 1.1;
+    margin-top: 30px;
+}
+
+h2 {
+    color: red;
+    letter-spacing: 1px;
+    font-weight: 300;
+    font-size: 300;
     font-family: "Gabriela", sans-serif;
-    cursor: pointer;
-    display: inline-block;
 
 }
-.quiz-box .question-number,
-.quiz-box .question-text,
-.quiz-box .option-container,
-.quiz-box .next-question-btn,
-.quiz-box .answer {
-    width: 100%;
-    float: left;
-} 
-.quiz-box .question-number {
-    font-size: 18px;
-    font-weight: 600;
-    border-bottom: 1px solid;
-    padding-bottom: 10px;
-    line-height: 25px;
+
+p {
+    margin: .8em 0;
+    font-weight: 300;
+    font-size: 1.1em;
+    line-height: 1.5;
 }
-.quiz-box .question-text {
-    font-size: 20px;
-    line-height: 28px;
+
+.btn--default {
+    padding: 10px 20px;
+    border: 0;
+    border-radius: 0.5em;
+    color: white;
+    text-transform: uppercase;
+    font-size: 0.8;
     font-weight: 400;
-    padding: 20px 0;
-    margin: 0;
-}
-.quiz-box .option-container .option{
-    color: black;
-    background-color: silver;
-    padding: 15px;
-    font-size: 16px;
-    line-height: 22px;
-    border-radius: 5px;
-    margin-bottom: 10px;
+    transition: opacity 0.3;
+    display: block;
+    background: lightgrey;
+    margin: auto;
     cursor: pointer;
-    text-transform: capitalize;
 }
 
-.quiz-box .btn {
-    margin: 15px 0;
-    
-}
-
-.quiz-box .answer {
-    border-top: 1px solid silver;
-
-}
-.quiz-box .answer div{
-    height: 40px
-    widtL 40px;
-    display: inline-block;
-    background-color: silver;
-    border-radius: 50%;
-    margin-right: 3px;
-    margin-top: 12px;
-}
