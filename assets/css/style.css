@@ -20,11 +20,22 @@ body {
 
 }
 
+.custom-box::before,
+.custom-box::after {
+    content: '';
+    clear: both;
+}
+.custom-box.hide {
+    display: none;
+    display:table;
+}
+
 .home-box {
     font-size: 18px;
     font-weight: 500;
     margin-bottom: 15px;
     line-height: 25px;
+
 }
 
 .home-box h3 {
@@ -71,22 +82,18 @@ body {
     text-decoration: none;
     vertical-align: 150%;
     font-family: "Gabriela", sans-serif;
-
-}
-
-.btn:hover {
     cursor: pointer;
-    box-shadow: 0 0.5px 2.5px;
-    transition: transform 150ms;
-    transform: scale(1);
-}
+    display: inline-block;
 
-.btn[disabled]:hover {
-    cursor: not-allowed;
-    box-shadow: none;
-    transform: none;
 }
-
+.quiz-box .question-number,
+.quiz-box .question-text,
+.quiz-box .option-container,
+.quiz-box .next-question-btn,
+.quiz-box .answer {
+    width: 100%;
+    float: left;
+} 
 .quiz-box .question-number {
     font-size: 18px;
     font-weight: 600;
@@ -94,6 +101,40 @@ body {
     padding-bottom: 10px;
     line-height: 25px;
 }
-.quiz-box .question-text {}
-.quiz-box .option-container {}
-.quiz-box .answer{}
+.quiz-box .question-text {
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 400;
+    padding: 20px 0;
+    margin: 0;
+}
+.quiz-box .option-container .option{
+    color: black;
+    background-color: silver;
+    padding: 15px;
+    font-size: 16px;
+    line-height: 22px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+
+.quiz-box .btn {
+    margin: 15px 0;
+    
+}
+
+.quiz-box .answer {
+    border-top: 1px solid silver;
+
+}
+.quiz-box .answer div{
+    height: 40px
+    widtL 40px;
+    display: inline-block;
+    background-color: silver;
+    border-radius: 50%;
+    margin-right: 3px;
+    margin-top: 12px;
+}
