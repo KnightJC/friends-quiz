@@ -9,47 +9,38 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Gabriela&family=Lato:wght@300&family=Nunito+Sans:wght@600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/quiz.css">
+    <title>Friends Quiz</title>
 </head>
 <body>
     <h1 class="heading">
         <img class="logo" src="assets/images/Friends_logo.svg.png" alt="logo"> Quiz
-
-    </h1>
-
-    <div class="game-area">
-        <div class="control-area">
-            <button class="btn btn--big"></button>
-            <button class="btn btn--big"></button>
-            <button class="btn btn--big"></button>
-            <button class="btn btn--big"></button>
+        <div class="quiz-box custom-box">
+            <div class="question-number">
+                Question 1 of 5
         </div>
-
-        
-        <div class="question-area">
-            <span id="operand1">x</span>
-            <span id="operand2">x</span>
-            <span id="operand3">x</span>
-            <span id="operand4">x</span>
-            <p class="answer-message">Enter Answer:</p>
-            <input type="answer-box" type="answer">
+        <div class="question-text">
+            What is the name of the coffee shop the friends often hang out at?
         </div>
-
-
-        <button class="btn btn--grey">Submit Answer</button>
-    </div>
-
-
-    <div class="score-area">
-            <p class="scores">Correct: <span id="score">0</span></p>
-            <p class="scores">Incorrect: <span id="incorrect">0</span></p>
-
-    
-    </div>
-
-    </div>
-
-    <script src="assets/js/script.js"></script>
+        <div class="option-container">
+            <div class="option">Central Perk</div>
+            <div class="option">Tavern</div>
+            <div class="option">Spice Lounge</div>
+            <div class="option">Coffee Bean</div>
+        </div>
+        <div class="next-question-btn">
+            <button type="button" class="btn">Next</button>
+        </div>
+        <div class="answer">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            
+        </div>
+</body>
+<script src="assets/js/script.js"></script>
     
 </body>
 </html>
