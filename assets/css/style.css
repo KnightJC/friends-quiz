@@ -1,95 +1,107 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat&family=Gabriela&family=Lato:wght@300&family=Nunito+Sans:wght@600&display=swap');
 
-body {
-    background-image: url("/assets/images/6f9d8aed23a4970c54747b299025ce32.jpg");
-    font-size: 16px;
-    font-family: "Gabriela", sans-serif;
-    line-height: 5%;
+* {
     margin: 0;
-    padding-top: 5em;
+    padding: 0;
+    font-family: 'Gabriela', sans-serif;
+    box-sizing: border-box;
+}
+body {
+    background: whitesmoke;
+    background-image: url('/assets/images/543961.jpg');
     background-repeat: no-repeat;
-    background-size: auto;
-    background-position-x: center;
-    background-position-y: 100%;
-    
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100%;
+}
 
+.h1 {
+    text-align: right;
+    font-size: 3rem;
+    text-align: center;
 }
 
 .center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+    margin: auto;
+    width: 60%;
+    padding: 10px;
   }
 
+.display {
+    background: grey;
+    width: 90%;
+    max-width: 600px;
+    margin: 100px auto 0;
+    border-radius: 30px;
+    padding: 50px;
+    opacity: 100%;
+}
 
-.container {
-    background: rgba(0, 0, 0, 0.3);
-    margin: 30%;
+.display h1 {
+    font-weight: 250;
+    font-weight: 600;
+    border-bottom: 1px solid white;
+    padding-bottom: 30px;
+    letter-spacing: 5px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(25, 155, 187);
+    color: white;
     text-align: center;
-    width: 800px;
-    border-radius: 20px;
-    margin-top: 0.5%;
-    box-shadow: 0px 0px 16px 2px rgba(0, 0, 0, 0.62);
+ }
+
+.quiz {
+    padding: 20px 0;
 }
-
-
-h1 {
+.quiz h2 {
+    font-size: 18px;
     color: black;
-    font-weight: 300;
-    font-size: 2.6em;
-    line-height: 1.1;
-    margin-top: 30px;
-    display: flex;
-    justify-content: center;
+    font-weight: 600;
 }
 
-h2 {
-    letter-spacing: 1px;
-    font-weight: 300;
-    font-size: 300;
-    font-family: "Gabriela", sans-serif;
-
-}
-
-p {
-    margin: .8em 0;
-    font-weight: 300;
-    font-size: 1.1em;
-    line-height: 1.5;
-    display: flex;
-    justify-content: center;
-}
-
-.btn--default {
-    padding: 10px 100px;
-    border: 0;
-    border-radius: 0.5em;
-    color: black;
-    text-transform: uppercase;
-    font-size: 0.8;
-    font-weight: 400;
-    transition: opacity 0.3s;
+.btn {
     background: whitesmoke;
-    margin: auto;
+    color: black;
+    font-weight: 500;
+    width: 100%;
+    border: 1px solid whitesmoke;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: left;
+    border-radius: 4px;
     cursor: pointer;
+    transition: all 0.3s;
 }
 
-.btn--default:hover {
-    opacity: 0.75;
+.btn:hover {
+    background: white;
+    color: whitesmoke
 }
 
-.btn--default:active {
-    opacity: initial;
+#next-btn {
+    background: whitesmoke;
+    color: black;
+    font-weight: 500;
+    width: 150px;
+    border: 0;
+    padding: 10px;
+    margin: 20px auto 0;
+    border-radius: 4px;
+    cursor: pointer;
+    display: none;
 }
 
-footer {
-    border-top: 1px solid white;
-    margin-top: 1.3em;
+.correct{
+   background: green; 
 }
 
-footer p {
-    font-size: 1em;
-    margin-top: 1.3em;
+.incorrect{
+    background: red;
 }
+
 
