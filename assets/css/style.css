@@ -1,35 +1,38 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat&family=Gabriela&family=Lato:wght@300&family=Nunito+Sans:wght@600&display=swap');
 
 body {
-    background: white;
+    background-image: url("/assets/images/6f9d8aed23a4970c54747b299025ce32.jpg");
     font-size: 16px;
     font-family: "Gabriela", sans-serif;
-    line-height: 1.5;
+    line-height: 5%;
     margin: 0;
-    padding-top: 2.5em;
-    background-color: antiquewhite;
+    padding-top: 5em;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position-x: center;
+    background-position-y: 100%;
+    
 
 }
 
-/*.heading {
-    text-align: center;
-    font-size: 3rem;
-}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
 
 .container {
-    display: flex;
-    justify-content: center;
-
-}
-
-.centered {
-    margin-top: 70px;
+    background: rgba(0, 0, 0, 0.3);
+    margin: 30%;
     text-align: center;
     width: 800px;
-    background: white;
     border-radius: 20px;
+    margin-top: 0.5%;
     box-shadow: 0px 0px 16px 2px rgba(0, 0, 0, 0.62);
 }
+
 
 h1 {
     color: black;
@@ -37,10 +40,11 @@ h1 {
     font-size: 2.6em;
     line-height: 1.1;
     margin-top: 30px;
+    display: flex;
+    justify-content: center;
 }
 
 h2 {
-    color: red;
     letter-spacing: 1px;
     font-weight: 300;
     font-size: 300;
@@ -53,20 +57,39 @@ p {
     font-weight: 300;
     font-size: 1.1em;
     line-height: 1.5;
+    display: flex;
+    justify-content: center;
 }
 
 .btn--default {
-    padding: 10px 20px;
+    padding: 10px 100px;
     border: 0;
     border-radius: 0.5em;
-    color: white;
+    color: black;
     text-transform: uppercase;
     font-size: 0.8;
     font-weight: 400;
-    transition: opacity 0.3;
-    display: block;
-    background: lightgrey;
+    transition: opacity 0.3s;
+    background: whitesmoke;
     margin: auto;
     cursor: pointer;
+}
+
+.btn--default:hover {
+    opacity: 0.75;
+}
+
+.btn--default:active {
+    opacity: initial;
+}
+
+footer {
+    border-top: 1px solid white;
+    margin-top: 1.3em;
+}
+
+footer p {
+    font-size: 1em;
+    margin-top: 1.3em;
 }
 

@@ -12,25 +12,26 @@
     <title>Friend's Quiz</title>
 </head>
 <body>
-    <h1 class="heading">
-        <img class="logo" src="assets/images/Friends_logo.svg.png" alt="logo"> Quiz
-</h1>
-<div class="container">
-    <div id="quiz" class="centered"></div>
-    <h2 id="question" class="headline-secondary--grouped"></h2>
-    <h3 id="score"></h3>
+    <div class="logo">
+        <img src="/assets/images/Friends_logo.svg.png" alt="Friends" class="center">
+    </div>
+    <div class="container">
+        <div id="quiz" class="centered"></div>
+        <h1>Quiz</h1>
+        <h2 id="question" class="headline-secondary--grouped"></h2>
+        <h3 id="score"></h3>
 
     <p id="choice0"></p>
-    <button id="guess0" class="btn--default">Select Answer</button>
+    <button data-type="guess0" class="btn--default">Select Answer</button>
 
     <p id="choice1"></p>
-    <button id="guess1" class="btn--default">Select Answer</button>
+    <button data-type="guess1" class="btn--default">Select Answer</button>
 
     <p id="choice2"></p>
-    <button id="guess2" class="btn--default">Select Answer</button>
+    <button data-type="guess2" class="btn--default">Select Answer</button>
 
     <p id="choice3"></p>
-    <button id="guess3" class="btn--default">Select Answer</button>
+    <button data-type="guess3" class="btn--default">Select Answer</button>
 
 <footer>
     <p id="progress">Question x of y</p>
