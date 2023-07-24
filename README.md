@@ -42,7 +42,7 @@ Users playing this game will be able to understand the rules at the bottom of th
 
 - The footer is most important as some might  struggle to understand.
 
-![lighthouse - friends](https://github.com/KnightJC/friends-quiz/assets/123365090/91deaf93-d1ea-479d-9646-6ac6ae30de53)
+![rules - friends](https://github.com/KnightJC/friends-quiz/assets/123365090/247c855a-3674-4935-b0c0-890e53057818)
 
 
 #### Features to Implement
