@@ -30,6 +30,7 @@ body {
 .display {
     background: grey;
     width: 90%;
+    height: 520px;
     max-width: 600px;
     margin: 100px auto 0;
     border-radius: 30px;
