@@ -42,6 +42,9 @@ Users playing this game will be able to understand the rules at the bottom of th
 
 - The footer is most important as some might  struggle to understand.
 
+![lighthouse - friends](https://github.com/KnightJC/friends-quiz/assets/123365090/91deaf93-d1ea-479d-9646-6ac6ae30de53)
+
+
 #### Features to Implement
 
 - When time is available, I would like to add a greater variety in questions and also a leaderboard at the end. This could show all the people playing and who's got the highest score.
