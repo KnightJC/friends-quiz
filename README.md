@@ -30,7 +30,10 @@ Users playing this game will be able to understand the rules at the bottom of th
 
 - When the user clicks an option, the answer will light up either red or green. This determines your answer.
 
-- The Javascript code chooses a random question and is displayed. Based on your answer, you can move on to the next stage of questions or get an incorrect score to show you your final result at the end. 
+- The Javascript code chooses a random question and is displayed. Based on your answer, you can move on to the next stage of questions or get an incorrect score to show you your final result at the end.
+
+![friends green answer](https://github.com/KnightJC/friends-quiz/assets/123365090/cb4a8db3-16ba-40fa-9475-f9a4bce5e7a2)
+
 
 #### The Footer
 
