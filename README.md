@@ -9,11 +9,6 @@ Users playing this game will be able to understand the rules at the bottom of th
 
 The design I choose was a light grey. I chose this colour as it would allow for the interactive green and read to show more clearly. This will help those visually impaired therefore more vibrant. Selecting the wrong answer would show as well as the correct answer. Right at the end of the game, you'll have a score based on all the correct/ incorrect answers. All questions are selected randomly therefore no first question is the same.
 
-## Technologies Used
-- HTML: HTML was used to structure the content and layout of the quiz app.
-- CSS: CSS was used for styling the user interface and making the app visually appealing.
-- JavaScript: JavaScript was the primary programming language used to implement the quiz's interactive features, such as handling user input, tracking scores, and managing the timer.
-
 
 ## Features
 #### Existing Features
@@ -56,6 +51,12 @@ The design I choose was a light grey. I chose this colour as it would allow for 
 
 - When time is available, I would like to add a greater variety of questions and also a leaderboard at the end. This could show all the people playing and who got the highest score as well as being more interactive.
 - Having a timer in the game would also allow users to try to beat each time
+
+## Technologies Used
+- HTML: HTML was used to structure the content and layout of the quiz app.
+- CSS: CSS was used for styling the user interface and making the app visually appealing.
+- JavaScript: JavaScript was the primary programming language used to implement the quiz's interactive features, such as handling user input, tracking scores, and managing the timer.
+
 
 ## Testing 
 
