@@ -5,7 +5,14 @@ My quiz is a game to challenge yourself or others with your knowledge of the ver
 
 Users playing this game will be able to understand the rules at the bottom of the screen as well as choosing wisely. The site is aimed at anybody who's seen the show therefore not demographic. Challenge yourself and have fun! 
 
+## Design 
 
+The design I choose was a light grey. I chose this colour as it would allow for the interactive green and read to show more clearly. This will help those visually impaired therefore more vibrant. Selecting the wrong answer would show as well as the correct answer. Right at the end of the game, you'll have a score based on all the correct/ incorrect answers. All questions are selected randomly therefore no first question is the same.
+
+## Technologies Used
+- HTML: HTML was used to structure the content and layout of the quiz app.
+- CSS: CSS was used for styling the user interface and making the app visually appealing.
+- JavaScript: JavaScript was the primary programming language used to implement the quiz's interactive features, such as handling user input, tracking scores, and managing the timer.
 
 
 ## Features
@@ -47,7 +54,8 @@ Users playing this game will be able to understand the rules at the bottom of th
 
 #### Features to Implement
 
-- When time is available, I would like to add a greater variety of questions and also a leaderboard at the end. This could show all the people playing and who got the highest score.
+- When time is available, I would like to add a greater variety of questions and also a leaderboard at the end. This could show all the people playing and who got the highest score as well as being more interactive.
+- Having a timer in the game would also allow users to try to beat each time
 
 ## Testing 
 
@@ -66,7 +74,7 @@ Users playing this game will be able to understand the rules at the bottom of th
 
 - When deploying my project, I discovered that my 'Next' button stopped working when adding in the footer. 
 
-- I went and revalidated my HTML/ CSS code in which it showed me the issue. I was missing an semi-colon.
+- I went and revalidated my HTML/ CSS code in which it showed me the issue. I was missing a semi-colon.
 
 #### Validator Testing
 
@@ -88,7 +96,31 @@ Users playing this game will be able to understand the rules at the bottom of th
 3. Pages to branch then using the drop-down menu, select Main Branch
 4. Once main branch has been selected, the page will refresh and provide with a completed website link
 
-Link to live site can be found here - https://knightjc.github.io/friends-quiz/
+__Forking__
+
+- Forking the GitHub Repository
+
+  - By forking the GitHub Repository, you can make a copy of the original repository in your own GitHub account. This means we can view or make changes without making the changes affecting the original.
+  - Log into GitHub and locate the GitHub Repository.
+  - At the top of the Repository there is a "Fork" button about the "Settings" button on the menu.
+  - You should now have a new copy of the original repository in your own GitHub account.
+ 
+
+__Cloning__
+
+- Making a Local Clone
+
+  - Log into your GitHub then find the GitPod repository
+  - Under the repository name there is a button that says "Clone or download". Click on this button.
+  - If cloning with HTTPS "Clone with HTTPS", copy this link.
+  - Open GitBash
+  - Change the current working directory to the location where you want the cloned directory to be.
+  - Type git clone, and then paste the URL you copied earlier.
+
+
+Cloning or Forking has not been done for this site but these are the steps to follow when doing them.
+
+The link to live site can be found here - https://knightjc.github.io/friends-quiz/
 
 ## Credits 
 
