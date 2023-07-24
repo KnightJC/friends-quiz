@@ -23,7 +23,7 @@ Users playing this game will be able to understand the rules at the bottom of th
 
 - This section provides interactive buttons for the user to click and make their choice.
 
-![multiple choice - friends](https://github.com/KnightJC/friends-quiz/assets/123365090/3af5b48d-7c27-420b-8c66-befd4f1636b6)
+![friends green answer](https://github.com/KnightJC/friends-quiz/assets/123365090/cb4a8db3-16ba-40fa-9475-f9a4bce5e7a2)
 
 
 #### Results
@@ -32,7 +32,7 @@ Users playing this game will be able to understand the rules at the bottom of th
 
 - The Javascript code chooses a random question and is displayed. Based on your answer, you can move on to the next stage of questions or get an incorrect score to show you your final result at the end.
 
-![friends green answer](https://github.com/KnightJC/friends-quiz/assets/123365090/cb4a8db3-16ba-40fa-9475-f9a4bce5e7a2)
+
 
 
 #### The Footer
