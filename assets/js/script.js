@@ -59,7 +59,7 @@ function startQuiz() {
     nextButton.innerHTML = "Next";
     showQuestion();
 }
-
+/*Choosing question */
 function showQuestion() {
     resetState();
     let currentQuestion = questions[currentQuestionIndex];
@@ -84,7 +84,7 @@ function resetState() {
         answerButtons.removeChild(answerButtons.firstChild);
     }
 }
-
+/* Correct and Incorrect Answer*/
 function selectAnswer(e){
     const selectedBtn = e.target;
     const isCorrect = selectedBtn.dataset.correct === "true";
@@ -102,7 +102,7 @@ function selectAnswer(e){
     });
     nextButton.style.display = "block";
 }
-
+/* Show scores */
 function showScore(){
     resetState();
     questionElement.innerHTML = `You scored ${score} out of ${questions.length}!`;
@@ -110,7 +110,7 @@ function showScore(){
     nextButton.style.display = "block";
 }
 
-
+/* Next question */
 function handleNextButton(){
     currentQuestionIndex++;
     if(currentQuestionIndex < questions.length){
