@@ -47,17 +47,19 @@ Users playing this game will be able to understand the rules at the bottom of th
 
 #### Features to Implement
 
-- When time is available, I would like to add a greater variety in questions and also a leaderboard at the end. This could show all the people playing and who's got the highest score.
+- When time is available, I would like to add a greater variety of questions and also a leaderboard at the end. This could show all the people playing and who got the highest score.
 
 ## Testing 
 
-- I tested this game in Chrome, Firefix and Opera.
+- I tested this game in Chrome, Firefox, and Opera.
 
 - I can confirm the results of the game are always correct.
 
-- The header, instructions, options, results and footer and very easy to understand and read. 
+- The header, instructions, options, results, and footer and very easy to understand and read. 
 
-- The colors and fonts are chosen which are easy to read and accessible when running it through lighthouse in the devtool.
+- The colors and fonts are chosen which are easy to read and accessible when running it through lighthouse in the DevTools.
+
+![lighthouse - friends](https://github.com/KnightJC/friends-quiz/assets/123365090/89d448cc-0dea-48e2-9003-886493399afe)
 
 
 #### Bugs
