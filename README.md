@@ -32,6 +32,7 @@ Users playing this game will be able to understand the rules at the bottom of th
 
 - The Javascript code chooses a random question and is displayed. Based on your answer, you can move on to the next stage of questions or get an incorrect score to show you your final result at the end.
 
+![friends result](https://github.com/KnightJC/friends-quiz/assets/123365090/36e8d47a-a860-4e51-8b1c-44b41a37d922)
 
 
 
