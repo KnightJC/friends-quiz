@@ -14,6 +14,9 @@ Users playing this game will be able to understand the rules at the bottom of th
 - Header which has the title of the quiz with a chill and relaxing background of the group. One of the most iconic pictures. 
 - The header clearly shows what the game.
 
+![Header - friends](https://github.com/KnightJC/friends-quiz/assets/123365090/a1bb22b2-58af-4e9e-bd30-14bade6cfa26)
+
+
 #### Game Options
 
 - The game shows clear instructions with the footer of the page. This then allows you to pick from 4 different answers. These options are interactive and light up with the correct or incorrect answer.
@@ -88,29 +91,6 @@ Link to live site can be found here - https://knightjc.github.io/friends-quiz/
 #### Thank you
 
 
-
-
-## Screenshots
-
-### Header
-
-![Header](https://github.com/KnightJC/friends-quiz/blob/main/assets/images/Header%20-%20friends.png?raw=true)
-
-### Lighthouse
-
-![Lighthouse](https://github.com/KnightJC/friends-quiz/blob/main/assets/images/lighthouse%20-%20friends.png?raw=true)
-
-### Multiple Choice
-
-![Multiple Choice](https://github.com/KnightJC/friends-quiz/blob/main/assets/images/multiple%20choice%20-%20friends.png?raw=true)
-
-### Questions 
-
-![Questions](https://github.com/KnightJC/friends-quiz/blob/main/assets/images/question-%20friends.png?raw=true)
-
-### Rules
-
-![Rules](https://github.com/KnightJC/friends-quiz/blob/main/assets/images/rules%20-%20friends.png?raw=true)
 
 
 
